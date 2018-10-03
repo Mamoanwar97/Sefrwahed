@@ -205,16 +205,15 @@ header {
 .section1 .h2{
   font-weight: 400;
 }
-.section1 .Wahed{
+section .Wahed{
   font-weight: bold;
 }
 /*--------------------------------------------------------------- EVENTS SECTION --------------------------------------------------------------*/
 .section2
 {
-  height: 100vh;
+  height: auto;
   padding-bottom: 2%;
 }
-
 .try .options .option .label {
   display: flex;
   position: absolute;
@@ -290,7 +289,6 @@ header {
   width: 560px;
 }
 .section3 .Wahed{
-  font-weight: bold;
   font-size: 120%;
 }
 .box2{

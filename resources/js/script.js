@@ -28,38 +28,28 @@ $(document).ready(function(){
         }
       });
     });
-      $('.js--wp-1').waypoint(function(direction) {
-        $('.js--wp-1').addClass('animated fadeIn');
-        },{
-          offset: '80%;'
-        });
-      $('.js--wp-event1').waypoint(function(direction) {
-        $('.js--wp-event1').addClass('animated flipInX');
-        },{
-          offset: '80%;'
-        });
-      $('.js--wp-event2').waypoint(function(direction) {
-          $('.js--wp-event2').addClass('animated flipInX');
-          },{
-            offset: '80%;'
-          });
-      $('.js--wp-event3').waypoint(function(direction) {
-          $('.js--wp-event3').addClass('animated flipInX');
-          },{
-            offset: '80%;'
-          });
-      $('.js--wp-code').waypoint(function(direction) {
-        $('.js--wp-code').addClass('animated jackInTheBox');
-        },{
-          offset: '70%;'
-        });
-      $('.js--wp-touch').waypoint(function(direction) {
-        $('.js--wp-touch').addClass('animated zoomIn');
-        },{
-          offset: '70%;'
-        });
-        $(".option").click(function(){
-   $(".option").removeClass("active");
-   $(this).addClass("active");
+    $('.js--wp-1').waypoint(function(direction) {
+      $('.js--wp-1').addClass('animated fadeIn');
+      },{
+        offset: '80%;'
       });
+    $('.js--wp-event1').waypoint(function(direction) {
+      $('.js--wp-event1').addClass('animated flipInX');
+      },{
+        offset: '80%;'
+      });
+    $('.js--wp-code').waypoint(function(direction) {
+      $('.js--wp-code').addClass('animated jackInTheBox');
+      },{
+        offset: '70%;'
+      });
+    $('.js--wp-touch').waypoint(function(direction) {
+      $('.js--wp-touch').addClass('animated zoomIn');
+      },{
+        offset: '70%;'
+      });
+    $(".option").click(function(){
+      $(".option").removeClass("active");
+      $(this).addClass("active");
+    });
 });
