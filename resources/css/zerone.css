@@ -182,31 +182,31 @@ header {
   margin: 7px 0;
 }
 /* ------------------------------------------------------ WHO ARE WE SECTION --------------------------------------------------------*/
-.icon1{
-  display: inline-block;
-  color: #0178c3;
-  font-size: 300%;
-  margin-bottom: 0;}
-.who{
-  width: 80%;
-  height: auto;
-  margin-left: 10%;
-  font-size: 85%;
+.section1 .row{
+  padding-top: 5%;
+}
+.section1 p{
+  margin: 1% 0;
+  font-size: 90%;
   font-weight: 400;
   letter-spacing: 1px;
   word-spacing: 2px;
   line-height: 145%;
-  padding: 1%;
+  text-align: left;
+  word-wrap: break-word;
+}
+.frame{
+  padding: 11% 0 ;
+}
+.who p{
+  margin: 3% 0;
+  line-height: 147%;
 }
 .section1 .h2{
   font-weight: 400;
 }
 .section1 .Wahed{
   font-weight: bold;
-}
-.section1 .section-head{
-    margin-bottom: 15px;
-    margin-top: 0;
 }
 /*--------------------------------------------------------------- EVENTS SECTION --------------------------------------------------------------*/
 .section2
@@ -215,7 +215,7 @@ header {
   padding-bottom: 2%;
 }
 
-body .options .option .label {
+.try .options .option .label {
   display: flex;
   position: absolute;
   right: 0px;
