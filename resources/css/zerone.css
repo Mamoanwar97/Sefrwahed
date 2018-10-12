@@ -211,56 +211,56 @@ section .Wahed{
 /*--------------------------------------------------------------- EVENTS SECTION --------------------------------------------------------------*/
 .section2
 {
-  height: auto;
-  padding-bottom: 2%;
+  height: 100vh;
+  padding: 5% 0;
+  margin: 0;
 }
-.try .options .option .label {
-  display: flex;
-  position: absolute;
-  right: 0px;
-  height: 40px;
-  transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
-  text-align: left;
+.section2 .content{
+  width: 100%;
+  height: 100%;
 }
-.try .options .option .label .icon {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  min-width: 40px;
-  max-width: 40px;
-  height: 40px;
-  border-radius: 100%;
-  color: #f7f7f7;
-  font-size: 70%;
-  font-weight: bold;
+.section2 .card-box{
+  margin-left: 5%;
+  width: 45%;
 }
-.try .options .option .label .info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 10px;
-  color: white;
-  white-space: pre;
+.section2 p{
+  text-align: center;
+  margin: 30px auto;
+  font-weight: 400;
+  font-size: 100%;
+  width: 560px;
 }
-.try .options .option .label .info > div {
-  position: relative;
-  transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95), opacity 0.5s ease-out;
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-align: center;
+    height: 100%;
 }
-.try .options .option .label .info .main {
-  font-weight: bold;
-  font-size: 110%;
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
-.try .options .option .label .info .sub {
-  transition-delay: .1s;
+
+.data {
+  margin-top: 30px;
+    margin-bottom: 0;
+    height: 170px;
+}
+.data p{
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 80%;
   font-size: 80%;
   font-weight: 400;
 }
-.k18{
-  background-color: #771d6a;
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
 }
-.k19{
-  background-color: #015990;
+.section2 img {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
 }
 /*--------------------------------------------------------------- CODE GEIST SECTION --------------------------------------------------------------*/
 .section3{
