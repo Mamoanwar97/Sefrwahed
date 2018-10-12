@@ -346,6 +346,10 @@ input[type=submit]{
   border-radius: 5%;
   width: 30%;
 }
+.email{
+  text-decoration: none;
+  color: #0178c3;
+}
 .box5{
   font-size: 90%;
   font-weight: 400;
