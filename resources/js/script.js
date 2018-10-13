@@ -33,8 +33,8 @@ $(document).ready(function(){
       },{
         offset: '80%;'
       });
-    $('.js--wp-event1').waypoint(function(direction) {
-      $('.js--wp-event1').addClass('animated flipInX');
+    $('.js--wp-event').waypoint(function(direction) {
+      $('.js--wp-event').addClass('animated slideInUp');
       },{
         offset: '80%;'
       });

@@ -18,11 +18,11 @@ html {
   color: #000;
   text-rendering: optimizeLegibility;
 }
+
 .row{
   max-width: 1140px;
   margin: 0 auto;
 }
-
 h1{
   margin: 0 auto;
   font-size: 750%;
@@ -182,6 +182,9 @@ header {
   margin: 7px 0;
 }
 /* ------------------------------------------------------ WHO ARE WE SECTION --------------------------------------------------------*/
+.section1{
+  height: 100vh;
+}
 .section1 .row{
   padding-top: 5%;
 }
@@ -214,6 +217,11 @@ section .Wahed{
   height: 100vh;
   padding: 5% 0;
   margin: 0;
+  background-color: #00446f;
+  color: #f7f7f7;
+}
+.section2 h2{
+  color: #f7f7f7;
 }
 .section2 .content{
   width: 100%;
@@ -226,19 +234,23 @@ section .Wahed{
 .section2 p{
   text-align: center;
   margin: 30px auto;
+  font-size: 90%;
   font-weight: 400;
-  font-size: 100%;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 145%;
   width: 560px;
 }
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgb(10,159,254,0.2);
     transition: 0.3s;
     text-align: center;
     height: 100%;
+    background-color: #016db2;
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgb(10,159,254,0.2);
 }
 
 .data {
@@ -469,11 +481,11 @@ h5{
   font-weight: 400;
 }
 /*------------------------------------------------------- animations -------------------------------------*/
-.js--wp-touch,.js--wp-event1,.js--wp-event2,.js--wp-event3{
+.js--wp-touch,.js--wp-event{
   opacity: 0;
   animation-duration: 1s;
 }
-.js--wp-touch.animated, .js--wp-event1.animated, .js--wp-event2.animated, .js--wp-event3.animated{
+.js--wp-touch.animated, .js--wp-event.animated{
   opacity: 1;
 }
 .js--wp-1{
