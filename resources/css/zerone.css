@@ -20,8 +20,10 @@ html {
 }
 
 .row{
-  max-width: 1140px;
+  max-width: 100%;
   margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 h1{
   margin: 0 auto;
@@ -66,6 +68,7 @@ iframe{
 /* ----------------------------------------------------------------------------------------------------------------------------------*/
 /* ---------------------------------------------------------HEADER ELEMENT-----------------------------------------------------------*/
 /* ----------------------------------------------------------------------------------------------------------------------------------*/
+
 header {
   background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url('img/hero.jpg');
   background-size: cover;
@@ -73,6 +76,7 @@ header {
   background-attachment: fixed;
   height: 100vh ;
 }
+
 .hero-text-box{
   text-align: center;
   position: absolute;
@@ -182,37 +186,35 @@ header {
   margin: 7px 0;
 }
 /* ------------------------------------------------------ WHO ARE WE SECTION --------------------------------------------------------*/
-.section1{
+.WeSefrWahed{
   height: 100vh;
 }
-.section1 .row{
+.WeSefrWahed .row{
   padding-top: 5%;
 }
-.section1 p{
-  margin: 1% 0;
+.WeSefrWahed p{
+  width: 80%;
+  margin: 3% auto;
   font-size: 90%;
   font-weight: 400;
   letter-spacing: 1px;
   word-spacing: 2px;
-  line-height: 145%;
+  line-height: 147%;
   text-align: left;
   word-wrap: break-word;
 }
 .frame{
   padding: 11% 0 ;
 }
-.who p{
-  margin: 3% 0;
-  line-height: 147%;
-}
-.section1 .h2{
+.WeSefrWahed .h2{
   font-weight: 400;
+  margin-right: 0;
 }
 section .Wahed{
   font-weight: bold;
 }
-/*--------------------------------------------------------------- EVENTS SECTION --------------------------------------------------------------*/
-.section2
+/*--------------------------------------------------------------- CodeGeist SECTION --------------------------------------------------------------*/
+.events
 {
   height: 100vh;
   padding: 5% 0;
@@ -220,62 +222,55 @@ section .Wahed{
   background-color: #00446f;
   color: #f7f7f7;
 }
-.section2 h2{
+.events h2{
   color: #f7f7f7;
 }
-.section2 .content{
-  width: 100%;
-  height: 100%;
+.events .cards-box{
+  margin: auto;
+  width: 70%;
+  margin-left: 0;
 }
-.section2 .card-box{
-  margin-left: 5%;
-  width: 45%;
-}
-.section2 p{
+.events p{
   text-align: center;
   margin: 30px auto;
-  font-size: 90%;
+  font-size: 100%;
   font-weight: 400;
   letter-spacing: 1px;
   word-spacing: 2px;
   line-height: 145%;
-  width: 560px;
+  width: 80%;
+  margin-right: 0;
 }
 .card {
-    box-shadow: 0 4px 8px 0 rgb(10,159,254,0.2);
     transition: 0.3s;
     text-align: center;
-    height: 100%;
+    width: 100%;
     background-color: #016db2;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
 }
-
 .card:hover {
     box-shadow: 0 8px 16px 0 rgb(10,159,254,0.2);
 }
-
-.data {
-  margin-top: 30px;
-    margin-bottom: 0;
-    height: 170px;
+.card img {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
 }
-.data p{
+.card .data {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 40%;;
+}
+.card .data p{
   margin: 0 auto;
   margin-top: 20px;
   width: 80%;
   font-size: 80%;
   font-weight: 400;
 }
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border-radius: 5px; /* 5px rounded corners */
-}
-.section2 img {
-    border-radius: 5px 5px 0 0;
-    width: 100%;
-}
 /*--------------------------------------------------------------- CODE GEIST SECTION --------------------------------------------------------------*/
-.section3{
+.CodeGeist{
   margin: 0;
   color: #FDFFFC;
   background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url('img/sefrwahed.jpg');
@@ -289,30 +284,30 @@ section .Wahed{
   width: 100%;
   border-radius: 3%;
 }
-.section3 h2{
+.CodeGeist h2{
   margin-bottom: 30px;
   color: #FDFFFC;
 }
-.section3 p{
+.CodeGeist p{
   text-align: center;
   margin: 30px auto;
   font-weight: 400;
   font-size: 100%;
-  width: 560px;
+  width: 80%;
 }
-.section3 .Wahed{
+.CodeGeist .Wahed{
   font-size: 120%;
 }
-.box2{
+.animted-box{
   padding-top: 2%;
   opacity: 0;
   animation-duration: 1s;
 }
-.box2.animated{
+.animated-box.animated{
   opacity: 1;
 }
 /*--------------------------------------------------------------- CONTACT --------------------------------------------------------------*/
-.section4{
+.connect{
   margin-top: 0;
   padding: 50px;
   padding-bottom: 10;
@@ -321,11 +316,11 @@ section .Wahed{
 .contact-box{
   text-align: left;
 }
-.section4 h2{
+.connect h2{
   font-size: 200%;
   text-align: left;
 }
-.section4 h4{
+.connect h4{
   margin: 3% auto;
   color: #2a2a2a;
   font-size: 130%;
@@ -334,7 +329,7 @@ section .Wahed{
 .box4{
   padding-left: 3%;
 }
-.section4 input[type=text],input[type=email],textarea{
+.connect input[type=text],input[type=email],textarea{
   display: block;
   margin: 4% 0;
   width: 80%;
@@ -472,12 +467,13 @@ footer{
   background-color: rgba(0,16,26,1);
   color: #f7f7f7;
   text-align: center;
-  height: 37PX;
+  height: 50PX;
   padding: 10PX;
   width: 100%;
+  font-size: 80%;
+  font-weight: 400;
 }
 h5{
-  font-size: 80%;
   font-weight: 400;
 }
 /*------------------------------------------------------- animations -------------------------------------*/
