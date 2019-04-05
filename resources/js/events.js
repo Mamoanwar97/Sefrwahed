@@ -14,7 +14,7 @@ let cards = [
   },
   {
     title:'Cyber Security',
-    image:'Security.jpg',
+    image:'security.jpg',
     description: "Master Security basics with Moataz Salah,<br> CEO & founder of CyberTalents",
     date: calender(25, 9, 2018)
   },
@@ -74,9 +74,10 @@ createCardHTML = (card) => {
   name.innerHTML = card.title;
   data.append(name);
 
-  const neighborhood = document.createElement('p');
-  neighborhood.innerHTML = card.description;
-  data.append(neighborhood);
+  const description = document.createElement('p');
+  description.innerHTML = card.description;
+  data.append(description);
+
 
   eventCard.append(data);
 
@@ -87,7 +88,7 @@ createCardHTML = (card) => {
   return eventCard;
 }
 
-const eventsBox = document.querySelector('.cards-box');
+const eventsBox = document.querySelector('.card-box');
 
 cards.forEach(card => {
     eventsBox.append(createCardHTML(card));

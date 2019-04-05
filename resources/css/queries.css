@@ -1,16 +1,67 @@
-@media  only screen and (max-width: 480px){
+@media screen and (max-width : 850px) {
+  .WeSefrWahed p{
+    margin-top: 20px;
+    text-align: center;
 
-}
-@media  only screen and (max-width: 767px){
-
-}
-@media  only screen and (max-width: 1023px){
-body{font-size: 18;}
-section{padding: 60px 0;}
-}
-@media  only screen and (max-width: 1200px){
-  .hero-text-box{
+  }
+  .WeSefrWahed{
+    padding-bottom: 50px;
+  }
+  .connectWithUs .row{
+    max-width: 90%;
+  }
+  .connectWithUs{
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .getInTouch{
+    margin: 5% auto;
+    text-align: center;
+  }
+  .getInTouch h4 {
+    margin-left: auto;
+  }
+  .contact-form{
+    margin: 20px 0;
+  }
+  .connect input[type="text"], input[type="email"], textarea{
+    width: 100%!important;
+    margin: 4% 0;
+  }
+  .connect input[type="submit"]{
+    margin: 4% auto;
+  }
+  .col{
     width: 100%;
-    padding: 0 2%;
+  }
+  .card img {
+      height: 200px;
+  }
+  .card .data {
+      height: 300px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width : 850px) {
+  .card img {
+      border-radius: 5px 5px 0 0;
+      height: 300px;
+  }
+  .card .data {
+      height: 200px;
+  }
+}
+@media screen and (min-width: 830px) and (max-width : 1111px) {
+  .row{
+    max-width: 90%;
+  }
+  html{
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 987px) and (max-width : 1144px) {
+}
+@media screen and (max-width : 1290px) {
+  .events{
+    padding: 6% 0;
   }
 }
