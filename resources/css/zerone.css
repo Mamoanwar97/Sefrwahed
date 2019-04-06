@@ -276,7 +276,7 @@ section .Wahed{
   border-radius: 5px;
   margin-right: 30PX;
 }
-.event-btn:hover, .event-btn:active{
+.event-btn:hover, .event-btn:active, .event-box:hover{
   box-shadow: 0 0 7px 10px rgba(1, 151, 246,0.4);
 }
 .events .row{
@@ -305,10 +305,8 @@ section .Wahed{
 }
 .event-box h2{
   color: #f7f7f7;
-  text-align: left;
 }
 .event-box p{
-  text-align: left;
 }
 /*--------------------------------------------------------------- CODE GEIST SECTION --------------------------------------------------------------*/
 .CodeGeist{
