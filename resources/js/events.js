@@ -4,7 +4,8 @@ let cards = [
     title:'Front End Development',
     image:'web.jpg',
     description: 'Dr. Ahmed El-Alfy Head of software development at Robusta Studio and Lead of Facebook Developers Circle in Cairo',
-    date: calender(8, 3, 2019)
+    date: calender(8, 3, 2019),
+    event: 'https://www.facebook.com/events/1152344334920189/'
   },
   {
     title:'A Day with Oracle',
@@ -35,7 +36,7 @@ function calender(day, month, year){
   	previousDate = days;
   	existingDate = `day`;
   }
-  else if(days < 28)
+  else if(days < 30)
   {
   	previousDate = days / 7;
   	existingDate =`week`;
@@ -57,10 +58,16 @@ function calender(day, month, year){
 }
 
 createCardHTML = (card) => {
+  const eventLink = document.createElement('a');
+  eventLink.href = card.event;
+  eventLink.target ="_blank";
+  eventLink.className = 'card mySlides';
+  eventLink.style.display = "none";
+
 
   const eventCard = document.createElement('div');
-  eventCard.className = 'card mySlides';
-  eventCard.style.display = "none";
+  eventLink.append(eventCard);
+
 
   const image = document.createElement('img');
   image.src = `resources/images/${card.image}`;
@@ -85,7 +92,7 @@ createCardHTML = (card) => {
   date.innerHTML = card.date;
   eventCard.append(date);
 
-  return eventCard;
+  return eventLink;
 }
 
 const eventsBox = document.querySelector('.card-box');

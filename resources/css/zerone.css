@@ -6,7 +6,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+a{
+  text-decoration: none;
+}
 *:focus{outline: none;}
 
 html {
@@ -65,7 +67,7 @@ h2::after{
 
 .card {
     transition: 0.3s;
-    margin: auto;
+    margin: 20px auto 0;
     text-align: center;
     width: 80%;
     background-color: #016db2;
@@ -118,15 +120,15 @@ header {
 /* ----------------------------------------------------------------------------------------------------------------------------------*/
 /* ----------------------------------------------------------- BUTTONS --------------------------------------------------------------*/
 /* ----------------------------------------------------------------------------------------------------------------------------------*/
-input[type=submit] {
+.btn1:link,
+.btn1:visited,input[type=submit] {
   width: 200px;
   display: inline-block;
   margin-top: 20px;
-  margin-right: 10px;
   padding: 10px 30px;
   font-weight: 400;
   text-decoration: none;
-  border-radius: 200px;
+  border-radius: 20px;
   transition: background-color 0.2s, color 0.2s, border 0.2s;
 }
 input[type=submit] {
@@ -238,18 +240,60 @@ iframe{
 section .Wahed{
   font-weight: bold;
 }
+.center-span{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 /*--------------------------------------------------------------- Events SECTION --------------------------------------------------------------*/
 .events
 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url('img/bricks.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   height: 100%;
   margin: 0;
-  background-color: #00446f;
   color: #f7f7f7;
 }
-.events h2{
+.events .span-2-of-3{
+  width: 55%;
+}
+.events .span-1-of-3{
+  width: 40%;
+}
+.event-box{
+  padding: 3% 4%;
+  border: 3px solid rgba(1, 151, 246);
+  box-shadow: 0px 0px 18px 5px  rgba(1, 151, 246,0.4) ;
+  border-radius: 5px;
+}
+.event-btn{
+  color: #f7f7f7;
+  border: 3px solid rgba(1, 151, 246);
+  box-shadow: 0px 0px 18px 5px  rgba(1, 151, 246,0.4) ;
+  border-radius: 5px;
+  margin-right: 30PX;
+}
+.event-btn:hover, .event-btn:active{
+  box-shadow: 0 0 7px 10px rgba(1, 151, 246,0.4);
+}
+.events .row{
+  max-width: 90%;
+  justify-content: space-around;
+}
+
+.event-box{
   color: #f7f7f7;
 }
+
+.events h4{
+  color: #f7f7f7;
+}
+
 .events p{
+  color: #f7f7f7;
   text-align: center;
   margin: 30px auto;
   font-size: 100%;
@@ -258,6 +302,13 @@ section .Wahed{
   word-spacing: 2px;
   line-height: 145%;
   width: 90%;
+}
+.event-box h2{
+  color: #f7f7f7;
+  text-align: left;
+}
+.event-box p{
+  text-align: left;
 }
 /*--------------------------------------------------------------- CODE GEIST SECTION --------------------------------------------------------------*/
 .CodeGeist{
@@ -307,7 +358,6 @@ section .Wahed{
   width: 90%;
   margin-left: 0;
 }
-
 .connect input[type="text"], input[type="email"], textarea{
   display: block;
   width: 85%!important;
