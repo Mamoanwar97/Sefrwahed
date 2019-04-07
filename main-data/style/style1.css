@@ -1,0 +1,49 @@
+/* indicators styling */
+.slider-2{
+	width:100%;
+	height:100%;}
+
+.carousel ol li .active{
+	    width: 14px;
+    height: 14px;
+    background-color: rgba(0,0,0,.4);
+border-radius: 8px
+}
+.carousel ol li {
+	    width: 14px;
+    height: 14px;
+    background-color: rgba(51,102,255,.6);
+border-radius: 8px
+}
+
+/* arrows styling */
+
+.carousel-control-prev .fa-angle-left{
+    left: 50%;
+    width: 38px;
+    height: 38px;
+    margin-top: -15px;
+    font-size: 31px;
+    color: #0066ff
+;
+    font-weight: bold;
+    border: 3px solid #ffffff;
+    padding-right: 3px;
+text-align: center;
+    border-radius: 53px;
+}
+.carousel-control-next .fa-angle-right{
+    left: 50%;
+    width: 38px;
+    height: 38px;
+    margin-top: -15px;
+    font-size: 30px;
+    color: #0066ff
+;
+    font-weight: bold;
+    padding-left: 3px;
+
+    border: 3px solid #ffffff;
+
+    border-radius: 53px;
+}

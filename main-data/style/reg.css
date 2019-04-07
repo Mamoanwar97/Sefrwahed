@@ -1,0 +1,25 @@
+
+
+body{
+	background:url(../img/ssa.jpg) fixed;
+}
+h3 {
+	color:white;
+}
+.card{
+	color:#A731D4;
+	
+	padding-top:20px;
+	background-color:rgba(255,255,255,0.1) !important;
+}
+	.sec-card{ margin-top: 20px;}
+	
+.blue{
+	color:#FFF !important;
+	}
+	.white{color:#FFFFFF;}
+	
+	.header-img img{
+		width:200px;
+		height:200px;}	
+		
