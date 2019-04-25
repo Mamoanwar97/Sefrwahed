@@ -11,4 +11,4 @@ With the help of Sefrwahed design team and considering our theme for Code Geist,
 
 ### Note:
 - The part of website inculded here is the only parts and pages i worked on, I didnt include the pages which i didnt contributed in.
-- Images of before and after the main page will be added soon.
+- Images of before and after the updates of main page will be added soon.
