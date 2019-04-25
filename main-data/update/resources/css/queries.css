@@ -1,4 +1,7 @@
 @media screen and (max-width : 850px) {
+  .modal-content{
+    width: 70%;
+  }
   .update .events{
   background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url('img/bricks-small.jpg');
   background-position: center;
@@ -6,8 +9,6 @@
   }
   .update .WeSefrWahed p{
     margin-top: 20px;
-    text-align: center;
-
   }
   .update .WeSefrWahed{
     padding-bottom: 50px;
@@ -16,7 +17,6 @@
     max-width: 90%;
   }
   .update .connectWithUs{
-    text-align: center;
     margin-bottom: 40px;
   }
   .update .getInTouch{
@@ -46,7 +46,10 @@
       height: 200px;
   }
   .update .card1 .data {
-      height: 300px;
+      height: 350px;
+  }
+  .update .card1 .data p{
+    font-size: 60%;;
   }
 }
 @media screen and (min-width: 480px) and (max-width : 850px) {
@@ -59,6 +62,23 @@
   }
 }
 @media screen and (min-width: 830px) and (max-width : 1111px) {
+  .modal-content{
+    width: 50%;
+
+  }
+  .update .events .col1{
+    margin: 0 auto;
+    width: 60%;
+  }
+  .update .card1 img{
+      height: 200px;
+  }
+  .update .card1 .data {
+      height: 400px;
+  }
+  .update .card1 .data p{
+    font-size: 60%;;
+  }
   .update .row1{
     max-width: 90%;
   }
@@ -67,6 +87,9 @@
   }
 }
 @media screen and (max-width : 1290px) {
+   .update .card1 .data p{
+    font-size: 60%;;
+  }
   .update .events{
     padding: 6% 0;
   }

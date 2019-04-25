@@ -1,0 +1,111 @@
+@media screen and (max-width : 550px) {
+  .timer .row{
+    max-width: 100%;
+  }
+}
+@media screen and (max-width : 850px) {
+  .main{
+  background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url('img/bricks-small.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  }
+  html{
+    font-size: 18px;
+  }
+  h2{
+    font-size: 150%;
+  }
+  h1{
+    font-size: 200%;
+  }
+  .description h2{
+    font-size: 150%;
+  }
+  .col{
+    width: 90%;
+    margin: auto;
+  }
+  .col:first-child {
+    margin-left: auto;
+  } /* all browsers except IE6 and lower */
+  .infoBox{
+    margin: 0 auto;
+    height: 100%;
+  }
+  .section{
+    padding: 10% 0;
+    height: 100%;
+    background-attachment: fixed;
+    text-align: center;
+  }
+  .timer{
+    padding: 30px;
+    padding-top: 0;
+  }
+  p {
+    text-align: center;
+  }
+  li{
+  font-size: 70%;
+  }
+  .welcome .span-1-of-2{
+    width: 100%;
+  }
+  .center-span{
+    order: 2;
+  }
+  .infoBox{
+    order: 0;
+  }
+  .small-screen{
+    display: block;
+  }
+  .wide-screen{
+    display: none;
+  }
+  .description p{
+    width: 100%;
+  }
+  .description ul{
+    width: 100%;
+  }
+  .welcome .row{
+    height: 50vh;
+  }
+  .sefrwahed-btn{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+  }
+  .sefrwahed-btn-image{
+    width: 50px;
+  }
+  .scroll-down{
+    display: none;
+  }
+
+}
+@media screen and (min-width: 480px) and (max-width : 850px) {
+  html{
+    font-size: 19px;
+  }
+}
+@media screen and (min-width: 830px) and (max-width : 1111px) {
+  .row{
+    max-width: 90%;
+  }
+  html{
+    font-size: 18px;
+  }
+  .wide-screen .row{
+    height: 80vh;
+  }
+}
+@media screen and (max-width : 1140px) {
+  html{
+    font-size: 20px;
+  }
+  .welcome .span-1-of-2{
+    width: 90%;
+  }
+}
