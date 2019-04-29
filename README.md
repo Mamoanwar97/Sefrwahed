@@ -31,3 +31,7 @@ You can see the page through here : www.sefrwahedegypt.com/code-geist
 
 ### Note:
 - The part of website inculded here is the only parts and pages i worked on, I didnt include the pages which i didnt contributed in.
+- To smoothly navigate through the pages you can open  the command terminal and write:
+* If you have Python 2, run python -m SimpleHTTPServer 8000. 
+* If you have Python 3, run python -m http.server 8000.
+then navigate your browser to http://localhost:8000/. 
