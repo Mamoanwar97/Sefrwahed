@@ -8,7 +8,7 @@ var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks the button, open the modal
 window.onload = function() {
-  setTimeout(modal.style.display = "block", 5000);
+  setTimeout(modal.style.display = "block", 2000);
 }
 
 // When the user clicks on <span> (x), close the modal

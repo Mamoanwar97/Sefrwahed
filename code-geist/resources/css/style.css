@@ -183,6 +183,9 @@ li{
   top:0;
   left: 0;
 }
+.maps iframe{
+  height: 450px;
+}
 /*------------------------------ sponsors -------------------------------------*/
 .small-screen{
   display: none;
@@ -212,7 +215,7 @@ li{
 .sponsors .span-1-of-4{
   width: 27%;
 }
-.sponsors .sponsor-box:hover, iframe:hover, .scroll-down:hover, h2:hover{
+ .sponsor-box:hover, iframe:hover, .scroll-down:hover, h2:hover{
   box-shadow: 0 0 7px 10px rgb(146, 39, 143,0.4);
 }
 .light{
@@ -287,6 +290,17 @@ li{
 .small-screen .other-sponsor{
   width: 100%;
 }
+.student-partners{
+  margin-top: 20px;
+  justify-content: space-around;
+}
+.student-partners img{
+  height: 150px;
+  margin: 10px auto;
+}
+.student-partners h2::after{
+  margin-bottom: 20px;
+}
 /*------------------------------ Footer -------------------------------------*/
 .footer {
   background-color: rgba(0,16,26);
@@ -313,4 +327,8 @@ h5{
 .timer{
   padding: 70px;
   padding-top: 0;
+}
+/**/
+.maps  h1{
+  font-size: 150%;
 }

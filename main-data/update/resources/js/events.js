@@ -7,7 +7,7 @@ let cards = [
     title:'SefrWahed Meetup with Incorta',
     image:'incorta19.jpg',
     description: "A new data-driven meetup in collaboration with Incorta and its very special guest, Mr. Wael Fakharany, Incorta, the startup that wants to speed up big data analytics by eliminating the need for data warehouses by gathering and preparing",
-    day: 30,
+    day: 16,
     month: 4,
     year: 2019,
   },
